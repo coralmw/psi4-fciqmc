@@ -8,7 +8,7 @@ from collections import Counter
 import numpy as np
 import psi4
 from scipy.special import comb
-from psi4numpy.ConfigurationInteraction.helper_CI import Determinant, HamiltonianGenerator
+from helper_CI import Determinant, HamiltonianGenerator
 from itertools import combinations, product, count
 import time
 
